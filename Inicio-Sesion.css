@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    height: 100vh;
+  }
+.container {
+    display: flex;
+    width: 100%;
+}
+.left-panel {
+    background-color: #F2E6CF;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #254B5E;
+    padding: 20px;
+  }
+  .logo {
+    background-color: #254B5E;
+    padding: 20px;
+    border-radius: 15px;
+    flex-direction: column;
+    position:relative;
+    z-index: 1;
+    margin-top: 50px;
+  }
+  .logo img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .Reg{
+    z-index: 1;
+    width: 130px;
+    height: 70px;
+    color: #F2E6CF;
+    background-color: #254B5E;
+    text-align: center;
+    margin-top: 290px;
+    margin-right: 400px;
+    border-radius: 20px;
+    font-family: "Marmelad", sans-serif;
+  }
+  a{
+    text-decoration: none;
+    color:#F2E6CF;
+  }
+  .Reg:hover{
+    background-color: #A7D0D2;
+  }
+  .lines {
+    position: absolute;               /* Posición absoluta */
+    top: 0;                           /* Alinea las líneas al inicio del panel izquierdo */
+    left: 0;
+    bottom: 0;                        /* Ocupa toda la altura del contenedor */
+    width: 600px;                      /* Ajusta el ancho de las líneas según sea necesario */
+    background-image: repeating-linear-gradient(
+      to right,
+      #F2E6CF 0px,
+      #F2E6CF 12px,
+      #254B5E 1px,
+      #254B5E 15px
+    );
+    z-index: 0;                       /* Asegura que las líneas queden detrás del logo */
+  }
+  .right-panel {
+    background-color: #254B5E;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F2E6CF;
+    text-align: center;
+  }
+  .right-panel h2 {
+    font-size: 70px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+  .form-container {
+    background-color: white;
+    height: 400px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+.form-container p{
+    text-align: left;
+    color: #254B5E;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.form-container input{
+    width: 230px;
+    height: 20px;
+    border-color: #F2E6CF;
+    border-radius: 40px;
+    color: black;
+}
+.form-container button{
+    width: 140px;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    color: #F2E6CF;
+    background-color: #254B5E;
+    font-size: 20px;
+    border-radius: 40px;
+}
+  
