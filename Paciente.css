@@ -233,3 +233,151 @@ button:hover{
   .Reg:hover{
     background-color: #A7D0D2;
   }
+  @media (max-width: 768px){
+
+    header{
+        width: 100%;
+        height: 100px;
+        margin: 0px;
+    }
+   .head img{
+    display: none;
+   }    
+   .head{
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+}
+.head h1{
+    color: white;
+    margin: 0;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.cic, .cic2{
+    display: none;
+
+}
+.bienvenida-seccion{
+    width: 100%;
+    margin-top: 20px;
+}
+.banner{
+    width: 90%;
+    padding: 0px;
+}
+h6{
+    margin-left: 40px;
+    padding: 10px;
+}
+.section1{
+    flex-direction: column;
+}
+.section1 h3{
+    margin-top: 20px;
+}
+.section2{
+    flex-direction: column;
+}
+.section2 h3{
+    margin-top: 20px;
+}
+.section2 input{
+    margin-top: 10px;
+}
+.ced{
+    margin-left: 90px;
+}
+.section3{
+    flex-direction: column;
+    margin: 0px;
+}
+.section3 h3{
+    margin-top: 20px;
+}
+.con1{
+    margin-left: 80px;
+}
+button{
+    margin: 20px;
+    margin-left: 120px;
+}
+  }
+  @media (min-width: 769px) and (max-width: 1174px) {
+
+    header{
+        width: 100%;
+        margin: 0px;
+    }
+    .cic, .cic2{
+        display: none;
+    }
+    .head h1{
+        margin-left: 130px;
+        margin-right: 0px;
+    }
+    .bienvenida-seccion{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .banner{
+        width: 90%;
+        padding: 0px;
+    }
+    h6{
+        margin-left: 270px;
+        padding: 10px;
+        font-size: 30px;
+    }
+    .section1 h3{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .section1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .section1 input{
+        margin-top: 10px;
+        width: 600px;
+    }
+    .section2 h3{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .section2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .ced{
+        margin-left: 90px;
+    }
+    .section2 input{
+        margin-top: 10px;
+        width: 600px;
+    }
+    .section3 h3{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .section3{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .section3 input{
+        margin-top: 10px;
+        width: 600px;
+    }
+.con1{
+    margin-left: 80px;
+}
+button{
+    margin-left: 350px;
+    width: 300px;
+    height: 80px;
+    font-size: 30px;
+    margin-top: 90px;
+}
+}

@@ -68,7 +68,6 @@ a{
     margin: 20px auto;
     margin-top: 180px;
 }
-
 /* Imagen circular */
 .image img {
     width: 250px;
@@ -331,4 +330,165 @@ footer h3{
     margin-left: 500px;
     margin-right: 480px;
     padding-top: 40px;  
+}
+@media (max-width: 768px) {
+    * {
+        outline: 1px solid red; /* Muestra los bordes de todos los elementos */
+    }
+    
+    header{
+        width: 100%;
+    }
+    .heade img {
+        margin: 0 auto;
+    }
+    
+    .heade{
+        flex-direction: column;
+    }
+    .hTex{
+        flex-direction: column;
+    }
+    .hed{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .In{
+        width: 220px;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .In h2{
+        padding-top: 20px;
+    }
+    .container{
+        margin-top: 400px;
+        flex-direction: column;
+        height: 500px;
+        
+    width: 100%; /* Ajusta dinámicamente */
+    max-width: 300px; /* Limita a 300px si hay espacio suficiente */
+    }
+    .container p{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .qu, .Prob, .Obj {
+        margin: 20px auto; /* Centra y elimina márgenes laterales */
+    }
+    
+    .container3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .obj{
+        width: 350px;
+        margin: 0;
+        border-radius: 20px;
+    }
+    .ben{
+        width: 350px;
+        margin: 0;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .mis{
+        width: 350px;
+        margin: 0;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .container4 img{
+        display: none;
+        align-items: center;
+    }
+    .tex{
+        flex-direction: column;
+    }
+    .tex h2{
+        font-size: 40px;
+        margin-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    footer{
+        display: none;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 1174px) {
+    * {
+        outline: 1px solid red; /* Muestra los bordes de todos los elementos */
+    }
+    header {
+        width: 100%;
+    }
+    .heade img{
+        max-width: 200px;
+        height: 100px;
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .hTex{
+        flex-direction: column;
+        margin-left: 142px;
+        text-align: center;
+    }
+    .In{
+        height: 90px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 11px;
+    }
+    .container{
+        margin-top: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container2{
+        align-items: center;
+    }
+    .qu, .Prob, .Obj {
+        margin: 20px auto; /* Centra y elimina márgenes laterales */
+    }
+    .container3{
+        align-items: center;
+    }
+    .obj, .mis, .ben{
+        height: 800px;
+    }
+    .container4 img{
+        display: none;
+    }
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .container4 h2{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    footer{
+        margin: 0px;
+        height: auto;
+        
+    }
+    footer h3{
+        margin: 0px;
+        text-align: center;
+        font-size: 30px;
+    }
 }

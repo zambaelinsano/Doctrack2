@@ -398,3 +398,131 @@ label{
     font-size: 14px;
     border-bottom: 1px solid #ddd;
   }
+  @media (max-width: 768px){
+    .head{
+        flex-direction: column;
+        height: 400px;
+    }
+    .tex{
+        flex-direction: column;
+    }
+    .otra{
+        flex-direction: column;
+    }
+    .Notas{
+        margin-left: 0px;
+        width: 350px;
+        margin-right: 20px;
+    }
+    .cic, .cic2{
+        display: none;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .bs{
+        flex-direction: column;
+    }
+    .textos{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .section2{
+        flex-direction: column;
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .come{
+        margin-left: 20px;
+        width: 350px;
+        margin-right: 20px;
+    }
+    p{
+        margin-left: 20px;
+    }
+    .mot{
+        width: 350px;
+        margin: 0px;
+        margin-left: 30px;
+    }
+    .boton-modal{
+        margin-left: 0px;
+        width: 412px;
+    }
+    label{
+        margin: 30px;
+    }
+    .elimin{
+        margin-left: 80px;
+    }
+    .boton-modal2{
+        margin-left: 0px;
+        width: 412px;
+    }
+    .boton-modal2 label{
+        margin: 150px;
+    }
+    .table-container{
+        margin-left: 40px;
+    }
+    
+      }
+      @media (min-width: 769px) and (max-width: 1174px) {
+        .tex{
+            flex-direction: column;
+            margin-left: 100px;
+            margin-top: 0px;
+            margin-right: 60px;
+        }
+        .otra{
+            flex-direction: column;
+        }
+        img{
+            margin-top: 30px;
+        }
+        .head{
+            height: 300px;
+        }
+        h2{
+            margin-left: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .bs{
+            flex-direction: column;
+            margin-top: 90px;
+        }
+        p{
+            font-size: 30px;
+        }
+        .section2{
+            margin-left: 180px;
+        }
+        .section1{
+            margin-left: 230px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+        .boton-modal{
+            margin: 0px;
+        }
+        .table-container{
+            margin-left: 90px;
+        }
+        h4{
+            text-align: center;
+            font-size: 25px;
+        }
+        .sal{
+            width: 200px;
+            height: 80px;
+            font-size: 30px;
+            margin-left: 380px;
+            margin-top: 50px;
+        }
+    }
