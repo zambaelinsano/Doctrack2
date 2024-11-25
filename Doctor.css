@@ -21,10 +21,10 @@ header{
     margin-left: 40px;
 }
 .head h1{
-    color: #F2E6CF;
+    color: white;
     margin-right: 40px;
     margin-left: 460px;
-    font-size: 40px;
+    font-size: 5px;
     margin-top: 35px;
 }
 .cic{
@@ -92,6 +92,7 @@ h6{
     flex-direction:row;
     margin-bottom: 20px;
     margin-top: 35px;
+    justify-content: space-between;
 }
 .section1 h3{
     font-size: 19px;
@@ -128,6 +129,7 @@ h6{
     flex-direction:row;
     margin-bottom: 20px;
     margin-top: 39px;
+    justify-content: space-between;
 }
 .section2 h3{
     font-size: 19px;
@@ -186,7 +188,7 @@ h6{
     flex-direction:row;
     margin-bottom: 20px;
     margin-top: 40px;
-    margin-left: 280px;
+    justify-content:space-evenly;
 }
 .section3 h3{
     font-size: 19px;
@@ -209,15 +211,8 @@ h6{
 .dat{
     border: none;
 }
-.con1{
-    margin-left: 60px;
-    margin-right: 90px;
-}
-.con2{
-    margin-left: 80px;
-    margin-right: 90px;
-}
-button{
+
+.button{
     text-align: center;
     height: 60px;
     width: 160px;
@@ -233,14 +228,19 @@ button:hover{
     background-color: #91CBD6;
 }
 .Reg{
-    width: 140px;
+    width: 130px;
     height: 40px;
     color: #F2E6CF;
     background-color: #254B5E;
     text-align: center;
-    margin-right: 400px;
+    margin-left: 20px;
     border-radius: 20px;
   }
+.Reg p{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
   a{
     text-decoration: none;
     color:#F2E6CF;
@@ -248,13 +248,15 @@ button:hover{
   .Reg:hover{
     background-color: #A7D0D2;
   }
-  @media (max-width: 768px){
+  @media (max-width: 779px){
 
     header{
         width: 100%;
         height: 100px;
         margin: 0px;
+        border-radius: 0px;
     }
+
    .head img{
     display: none;
    }    
@@ -292,14 +294,27 @@ h6{
 .section1 h3{
     margin-top: 20px;
 }
+.section1{
+    align-items: center;
+}
+.section2{
+    align-items: center;
+}
+.section3{
+    align-items: center;
+}
 .section2{
     flex-direction: column;
+    margin-top: 10px;
 }
 .section2 h3{
     margin-top: 20px;
 }
 .section2 input{
     margin-top: 10px;
+}
+.ced{
+    margin-left: 90px;
 }
 .section3{
     flex-direction: column;
@@ -309,11 +324,16 @@ h6{
     margin-top: 20px;
 }
 button{
-    margin: 20px;
-    margin-left: 120px;
+    margin-left: 30%;
+    margin-top: 50px;
+
+}
+.Reg{
+    margin-top: 10px;
+    margin-left: 10%;
 }
   }
-  @media (min-width: 769px) and (max-width: 1174px) {
+  @media (min-width: 780px) and (max-width: 1174px) {
 
     header{
         width: 100%;
@@ -333,6 +353,9 @@ button{
     .banner{
         width: 90%;
         padding: 0px;
+    }
+    .section1, .section2, .section3{
+        align-items: center;
     }
     h6{
         margin-left: 270px;
@@ -358,10 +381,15 @@ button{
     .section2{
         flex-direction: column;
         width: 100%;
+        margin-top: 10px;
     }
     .section2 input{
         margin-top: 10px;
         width: 600px;
+    }
+    .es{
+        margin-left: 0px;
+        margin: 0px;
     }
     .section3 h3{
         font-size: 25px;
@@ -376,9 +404,7 @@ button{
         margin-top: 10px;
         width: 600px;
     }
-.con1{
-    margin-left: 80px;
-}
+
 button{
     margin-left: 350px;
     width: 300px;
@@ -386,4 +412,17 @@ button{
     font-size: 30px;
     margin-top: 90px;
 }
+}
+@media(min-width:1600px){
+    .head h1{
+        margin-left: 400px;
+        margin-right: 0px;
+        font-size: 50px;
+    }
+    .cic{
+        margin-left: 20%;
+    }
+    button{
+        margin-left: 45%;
+    }
 }

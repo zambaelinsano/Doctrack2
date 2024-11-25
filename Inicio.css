@@ -25,11 +25,11 @@ body {
     padding: 20px;
     border-radius: 15px;
     flex-direction: column;
-    position:relative;
+    position:static;
     z-index: 1;
   }
   .logo img {
-    width: 350px;
+    width: 420px;
     height: auto;
     margin-bottom: 10px;
   }  
@@ -61,6 +61,7 @@ body {
   .right-panel h2 {
     font-size: 70px;
     margin-bottom: 40px;
+    color: white;
   }
   .form-container {
     background-color: white;
@@ -92,10 +93,32 @@ body {
     background-color: #254B5E;
     color: #F1E6D2;
   }
-  @media (max-width: 768px){
+  a{
+    text-decoration: none;
+  }
+  .reg:hover{
+    background-color: #A7D0D2;
+  }
+  .reg{
+  width: 130px;
+  height: 50px;
+  background-color: #254B5E;
+  z-index: 1;
+margin-top: 40%;
+margin-right: 70%;
+border-radius: 10px; 
+}
+  .reg h3{
+text-align: center;
+margin-top: 14px;
+color: white;
+  }
+  @media (max-width: 779px){
 
      .container {
           flex-direction: column;
+          background-color: #F1E6D2;
+          
       }
       .lines{
         z-index: -1;
@@ -107,6 +130,7 @@ body {
           width: auto;
           padding: 10px;
           align-items: center;
+          margin-top: 50px;
       }
       
       .logo img {
@@ -117,10 +141,10 @@ body {
       .right-panel {
           width: 90%;
           height: 600px;
-          margin-left: 25px;
-          margin-top: 40px;
+          margin-left: 40px;
+          margin-top: 50px;
           border-radius: 20px;
-
+        
       }
   
       .right-panel h2 {
@@ -141,8 +165,19 @@ body {
           height: 40px;
           margin-left: 20px;
       }
+      .reg{
+        width: 200px;
+        height: 100px;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5%;
+      }
+      .reg h3{
+        font-size: 35px;
+        margin-top: 25px;
+      }
   }
-  @media (min-width: 769px) and (max-width: 1174px) {
+  @media (min-width: 780px) and (max-width: 1174px) {
     .left-panel{
       width: 40%;
     }
@@ -162,6 +197,11 @@ body {
       font-size: 30px;
       height: 60px;
       margin-top: 20px;
+    }
+  }
+  @media(min-width:1500px){
+    .lines{
+      width: 700px;
     }
   }
 

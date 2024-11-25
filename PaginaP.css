@@ -63,9 +63,11 @@ h2{
 }
 .bs{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .section1{
-    width: 70%;
+    width: 60%;
 }
 p{
     color: #254B5E;
@@ -76,25 +78,47 @@ p{
     height: 25px;
     background-color: white;
     border-radius: 10px;
-    margin-left: 100px;
+    margin-left: 34%;
+}
+.textos1{
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20.5%;
+    border-color: #254B5E;
+}
+.textos2{
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 33%;
+}
+.textos3{
+    width: 250px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 13%;
 }
 .trat{
     display: flex;
-    margin-left: 150px;
+    margin-left: 90px;
 }
 .hor{
     display: flex;
-    margin-left: 150px;
+    margin-left: 90px;
     margin-top: 40px;
 }
 .pro{
     display: flex;
-    margin-left: 150px;
+    margin-left: 90px;
     margin-top: 40px;
 }
 .med{
     display: flex;
-    margin-left: 150px;
+    margin-left: 90px;
     margin-top: 40px;
 }
 .section2{
@@ -137,6 +161,7 @@ p{
 .head{
     flex-direction: column;
     height: 400px;
+    width: 100%;
 }
 .tex{
     flex-direction: column;
@@ -150,10 +175,31 @@ h2{
 }
 .bs{
     flex-direction: column;
+    align-items: center;
 }
 .textos{
     width: 200px;
     margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.textos1{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.textos2{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.textos3{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .section1{
     flex-direction: column;
@@ -165,48 +211,110 @@ h2{
     margin-left: 20px;
     flex-direction: column;
 }
+.section2{
+    margin-right: 0px;
+    margin-left: 1px;
+    align-items: center;
+    width: 100%;
+}
 .come{
-    margin-left: 20px;
+    margin-left: 1x 0%;
     width: 350px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 p{
-    margin-left: 20px;
+    margin-left: 0px;
 }
   }
   @media (min-width: 769px) and (max-width: 1174px) {
-    .tex{
-        flex-direction: column;
-        margin-left: 100px;
-        margin-top: 0px;
-        margin-right: 60px;
-    }
-    img{
-        margin-top: 30px;
-    }
     .head{
         height: 300px;
+        width: 100%;
+    }
+    .head img{
+        margin-top: 20%;
+    }
+    .tex{
+        flex-direction: column;
+    }
+    .cic, .cic2{
+        display: none;
     }
     h2{
-        margin-left: 10px;
         text-align: center;
-        font-size: 30px;
+        margin-bottom: 40px;
     }
     .bs{
-        flex-direction: column;
-        margin-top: 90px;
+
+        align-items: center;
     }
-    p{
-        font-size: 30px;
+    .section1{
+        margin-left: 10%;
+    }
+    .textos{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 0%;
+        margin-right: 0px;
+    }
+    .textos1{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .textos2{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .textos3{
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .section1{
+        flex-direction: column;
     }
     .section2{
-        margin-left: 300px;
+        flex-direction: column;
     }
-    .sal{
-        width: 200px;
-        height: 80px;
-        font-size: 30px;
-        margin-left: 380px;
-        margin-top: 50px;
+    .trat, .hor, .pro, .med{
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .section2{
+        margin-right: 0px;
+        margin-left: 1px;
+        align-items: center;
+        width: 100%;
+    }
+    .come{
+        margin-left: 1x 0%;
+        width: 350px;
+        margin-left: 23%;
+    }
+    p{
+        margin-left: 0px;
+    }
+}
+@media(min-width:1536px){
+    .head h1{
+        margin-left: 150px;
+    }
+    .cic{
+        margin-left: 0%;
+    }
+
+    .textos1{
+        margin-left: 23.5%;
+    }
+    .textos3{
+        margin-left: 17.5%;
+    }
+    .come{
+        margin-left: 10%;
     }
 }

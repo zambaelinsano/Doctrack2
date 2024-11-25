@@ -106,6 +106,9 @@ p{
     margin-left: 100px;
     margin-top: 20px;
     border-radius: 30px;
+    border: none;
+    font-size: 30px;
+    text-size-adjust: 450px;
 }
 .button{
     background-color: #A7D0D2;
@@ -178,6 +181,7 @@ form{
     }
     .section1{
         flex-direction: column;
+        align-items: center;
     }
     .section2{
         flex-direction: column;
@@ -189,26 +193,30 @@ form{
         margin-right: 20px;
     }
     p{
-        margin-left: 20px;
+        margin-left: 40%;
     }
     .mot{
         width: 350px;
         margin: 0px;
         margin-left: 30px;
     }
+    .button{
+        margin-left: 50%;
+    }
       }
       @media (min-width: 769px) and (max-width: 1174px) {
-        .tex{
-            flex-direction: column;
-            margin-left: 100px;
-            margin-top: 0px;
-            margin-right: 60px;
-        }
-        img{
-            margin-top: 30px;
-        }
         .head{
             height: 300px;
+            width: 100%;
+        }
+        .head img{
+            margin-top: 20%;
+        }
+        .tex{
+            flex-direction: column;
+        }
+        .cic, .cic2{
+            display: none;
         }
         h2{
             margin-left: 10px;
@@ -240,5 +248,17 @@ form{
             font-size: 30px;
             margin-left: 380px;
             margin-top: 50px;
+        }
+    }
+    @media (min-width: 1600px){
+        .head h1{
+            margin-left: 150px;
+        }
+        .cic{
+            margin-left: 0%;
+        }
+    
+        .mot{
+            margin-left: 23.5%;
         }
     }

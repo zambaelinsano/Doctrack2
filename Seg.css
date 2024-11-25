@@ -127,7 +127,7 @@ button{
     margin-top: 30px;
     cursor: pointer;
 }
-.sal h3{
+.sal p{
     color: white;
     text-align: center;
     padding-top: 18px;
@@ -153,44 +153,52 @@ button{
     p{
         text-align: center;
     }
-    .textos{
-        width: 90%;
-        height: 150px;
-        margin: 0px;
-    }
+ 
     .bs{
         flex-direction: column;
+        align-items: center;
     }
-    .textos{
-        width: 200px;
-        margin-top: 20px;
-    }
+
     .section1{
         flex-direction: column;
+        width: 90%;
+        align-items: center;
     }
     .section2{
         flex-direction: column;
+        width: 100%;
     }
+
     .textos{
-        margin-left: 20px;
+        margin-left: 0%;
         width: 350px;
-        margin-right: 20px;
+        margin-right: 0%;
     }
     .come{
-        margin-left: 20px;
+        margin-left: 7%;
         width: 350px;
-        margin-right: 20px;
+        margin-right: 0px;
     }
     p{
-        margin-left: 20px;
+        margin-left: 0px;
     }
       }
-      @media (min-width: 769px) and (max-width: 1174px) {
-        .tex{
-            flex-direction: column;
-            margin-left: 100px;
-            margin-top: 0px;
-            margin-right: 60px;
+@media (min-width: 769px) and (max-width: 1174px) {
+    .head{
+        height: 300px;
+        width: 100%;
+    }
+    .head img{
+        margin-top: 20%;
+    }
+    .tex{
+        flex-direction: column;
+    }
+    .cic, .cic2{
+        display: none;
+    }
+        .bs{
+            align-items: center;
         }
         img{
             margin-top: 30px;
@@ -216,16 +224,33 @@ button{
             font-size: 30px;
         }
         .section1{
-            margin-left: 200px;
+            margin-left: 00px;
         }
         .section2{
-            margin-left: 200px;
+            margin-left: 00px;
         }
         .sal{
             width: 200px;
             height: 80px;
             font-size: 30px;
-            margin-left: 380px;
+            margin-left: 0px;
             margin-top: 50px;
         }
+        .come{
+            margin-left: 0px;
+        }
+        .textos{
+            margin-left: 0px;
+        }
+}
+@media (min-width:1500px){
+    .head h1{
+        margin-left: 150px;
     }
+    .come{
+        margin-left: 22%;
+    }
+    .textos{
+        margin-left: 22%;
+    }
+}

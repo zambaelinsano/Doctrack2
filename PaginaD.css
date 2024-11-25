@@ -47,18 +47,21 @@ header{
     display: flex;
 }
 .env{
-    text-align: center;
-    width: 200px;
-    margin-top: 40px;
-    margin-left: 110px;
-    border: none;
-    background-color: #254B5E;
-    height: 40px;
-    border-radius: 10px;
-    color: #F2E6CF;
-    font-size: 20px;
-    cursor: pointer;
+width: 80%;
+height: 100px;
+padding: 15px;
+outline: none;
+resize: none;
+font-size: 20px;
+border-radius: 20px;
+border-color: #185E83;
+margin-top: 20px;
+margin-left: 10%;
 }
+textarea:is(:focus, :invalid){
+    border-color: #91CBD6;
+}
+
 a{
     text-decoration: none;
 }
@@ -129,7 +132,7 @@ h3{
 .sal:hover{
     background-color: #A7D0D2;
 }
-h5{
+p{
     color: white;
     font-size: 20px;
     padding-top: 10px;
@@ -175,6 +178,16 @@ label{
     justify-content: center;
     align-items: center;
     z-index: 100;
+}
+.boten{
+    width: 140px;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 20px;
+    background-color: #254B5E;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
 }
 #btn-modal:checked ~ .container-modal{
     display: flex;
@@ -423,6 +436,7 @@ label{
     }
     .bs{
         flex-direction: column;
+        align-items: center;
     }
     .textos{
         width: 200px;
@@ -430,28 +444,26 @@ label{
     }
     .section1{
         flex-direction: column;
+        align-items: center;
+        width: 90%;
     }
     .section2{
         flex-direction: column;
         width: 80%;
         margin-left: 0px;
+        align-items: center;
+        
     }
 
-    .come{
-        margin-left: 20px;
-        width: 350px;
-        margin-right: 20px;
-    }
     p{
-        margin-left: 20px;
+        margin-left: 0px;
     }
-    .mot{
-        width: 350px;
-        margin: 0px;
-        margin-left: 30px;
+    .env{
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .boton-modal{
-        margin-left: 0px;
+        margin-left: 15%;
         width: 412px;
     }
     label{
@@ -461,7 +473,7 @@ label{
         margin-left: 80px;
     }
     .boton-modal2{
-        margin-left: 0px;
+        margin-left: 10%;
         width: 412px;
     }
     .boton-modal2 label{
@@ -470,6 +482,7 @@ label{
     .table-container{
         margin-left: 40px;
     }
+
     
       }
       @media (min-width: 769px) and (max-width: 1174px) {
@@ -496,20 +509,25 @@ label{
         .bs{
             flex-direction: column;
             margin-top: 90px;
+            align-items: center;
         }
         p{
             font-size: 30px;
         }
         .section2{
-            margin-left: 180px;
+            margin-left:20%;
         }
         .section1{
-            margin-left: 230px;
+            margin-left: 30%;
             margin-top: 0px;
             margin-bottom: 20px;
+            align-items: center;
         }
         .boton-modal{
             margin: 0px;
+        }
+        .boton-modal2{
+            margin-left: 15%;
         }
         .table-container{
             margin-left: 90px;
@@ -522,7 +540,27 @@ label{
             width: 200px;
             height: 80px;
             font-size: 30px;
-            margin-left: 380px;
+            margin-left: 0px;
             margin-top: 50px;
         }
+        .sal p{
+            padding-top: 20px;
+        }
     }
+@media(min-width:1376px){
+    .head h1{
+        margin-left: 200px;
+    }
+    .cic{
+        margin-left: 0%;
+    }
+    .boton-modal{
+        margin-left: 60%;
+    }
+    .boton-modal2{
+        margin-left: 60%;
+    }
+    .table-container{
+        margin-left: 50%;
+    }
+}
